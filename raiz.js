@@ -5,5 +5,6 @@ function raiz(numero, indice = 2) {
   if (indice === 0) {
     return "Error: El índice de la raíz no puede ser 0";
   }
-  return Math.pow(numero, 1 / indice);
+  //Cambio de Jonathan
+  return ("El resultado de su raíz es: " + Math.pow(numero, 1 / indice));
 }
